@@ -1,0 +1,4 @@
+h3==4.0.0b3
+protobuf
+jupyterlab
+numpy

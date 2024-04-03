@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+message H3Cell {
+  uint64 index = 1;
+}
+
+message H3CellArray {
+  repeated H3Cell cell = 1;
+}
+
+message IntArray {
+  repeated uint64 cell = 1;
+}
